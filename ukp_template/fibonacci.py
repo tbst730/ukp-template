@@ -4,6 +4,8 @@ class Fibonacci:
 
     def fib(self, n: int) -> int:
         ##### YOUR CODE HERE #####
+        if n <= 0:
+            raise ValueError("You should enter a positive integer")
         if n == 1 or n == 2:
             return 1
         else:
