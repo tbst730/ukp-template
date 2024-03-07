@@ -8,7 +8,8 @@ Be creative! do whatever you want!
 - Import things from your .base module
 """
 ##### YOUR CODE HERE #####
-
+import sys
+from ukp_template.fibonacci import Fibonacci 
 ##########################
 
 def main():  # pragma: no cover
@@ -29,4 +30,8 @@ def main():  # pragma: no cover
     """
     ##### YOUR CODE HERE #####
     print("This will do something")
+    n = sys.argv[1]
+    fibo = Fibonacci()
+    result = fibo.fib(n)
+    print(result)
     ##########################
