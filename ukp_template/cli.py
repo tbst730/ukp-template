@@ -9,7 +9,7 @@ Be creative! do whatever you want!
 """
 ##### YOUR CODE HERE #####
 import sys
-from ukp_template.fibonacci import Fibonacci 
+from ukp_template import Fibonacci 
 ##########################
 
 def main():  # pragma: no cover
@@ -32,6 +32,6 @@ def main():  # pragma: no cover
     print("This will do something")
     n = sys.argv[1]
     fibo = Fibonacci()
-    result = fibo.fib(n)
+    result = fibo.fib(int(n))
     print(result)
     ##########################

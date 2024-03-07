@@ -1,4 +1,5 @@
 from .base import BaseClass
+from .fibonacci import Fibonacci
 ##### YOUR CODE HERE #####
 
 ##########################
@@ -6,6 +7,6 @@ from .base import BaseClass
 __all__ = [
     "BaseClass",
     ##### YOUR CODE HERE #####
-
+    "Fibonacci"
     ##########################
     ]
